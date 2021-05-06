@@ -21,7 +21,7 @@ export class Cat extends Phaser.GameObjects.Container {
         const walkLeft = () => {
             this.sprite.flipX = true
             this.sprite.play({ key: 'catwalk_walk', repeat: Phaser.FOREVER })
-            this.sprite.setVelocityX(-20);
+            this.sprite.setVelocityX(-150);
         }
         const walkRight = () => {
             this.sprite.flipX = false
